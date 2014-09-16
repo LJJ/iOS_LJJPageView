@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2941DF1719C02350006E67ED /* LJJPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941DF1619C02350006E67ED /* LJJPageView.m */; };
 		29DBDEAA19BB03510082AE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DBDEA919BB03510082AE00 /* Foundation.framework */; };
 		29DBDEAC19BB03510082AE00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DBDEAB19BB03510082AE00 /* CoreGraphics.framework */; };
 		29DBDEAE19BB03510082AE00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DBDEAD19BB03510082AE00 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2941DF1519C02350006E67ED /* LJJPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJPageView.h; sourceTree = "<group>"; };
+		2941DF1619C02350006E67ED /* LJJPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJPageView.m; sourceTree = "<group>"; };
 		29DBDEA619BB03510082AE00 /* PageVCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageVCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DBDEA919BB03510082AE00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29DBDEAB19BB03510082AE00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				29DBDEBB19BB03510082AE00 /* Main.storyboard */,
 				29DBDEBE19BB03510082AE00 /* ViewController.h */,
 				29DBDEBF19BB03510082AE00 /* ViewController.m */,
+				2941DF1519C02350006E67ED /* LJJPageView.h */,
+				2941DF1619C02350006E67ED /* LJJPageView.m */,
 				29DBDEC119BB03510082AE00 /* Images.xcassets */,
 				29DBDEB019BB03510082AE00 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2941DF1719C02350006E67ED /* LJJPageView.m in Sources */,
 				29DBDEC019BB03510082AE00 /* ViewController.m in Sources */,
 				29DBDEBA19BB03510082AE00 /* AppDelegate.m in Sources */,
 				29DBDEB619BB03510082AE00 /* main.m in Sources */,
@@ -376,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pengfei Sun (RLV9C7HF22)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PageVCTest/PageVCTest-Prefix.pch";
 				INFOPLIST_FILE = "PageVCTest/PageVCTest-Info.plist";
@@ -389,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pengfei Sun (RLV9C7HF22)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PageVCTest/PageVCTest-Prefix.pch";
 				INFOPLIST_FILE = "PageVCTest/PageVCTest-Info.plist";
@@ -456,6 +464,7 @@
 				29DBDEDA19BB03510082AE00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29DBDEDB19BB03510082AE00 /* Build configuration list for PBXNativeTarget "PageVCTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				29DBDEDD19BB03510082AE00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
