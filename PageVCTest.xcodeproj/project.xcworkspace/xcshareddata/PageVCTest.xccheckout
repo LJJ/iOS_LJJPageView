@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>452D6C3F-1049-4AB2-8C4F-95DC70BE9073</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PageVCTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D991E6537D844171902066C265B762263C7F1CB4</key>
+		<string>ssh://github.com/LJJ/iOS_LJJPageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PageVCTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D991E6537D844171902066C265B762263C7F1CB4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/LJJ/iOS_LJJPageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D991E6537D844171902066C265B762263C7F1CB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D991E6537D844171902066C265B762263C7F1CB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PageVCTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
