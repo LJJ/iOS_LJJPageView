@@ -73,7 +73,7 @@
 - (void)setPCurrentPage:(NSInteger)pCurrentPage
 {
     _pCurrentPage = pCurrentPage;
-    _currentPageNumber = _pCurrentPage>=_totalPageNumber + 2 ? _totalPageNumber:_pCurrentPage-2;
+    _currentPageNumber = (_pCurrentPage+3)%5;
     _pageControl.currentPage = _currentPageNumber;
     [_canvasView setContentOffset:CGPointMake(_pageWidth*_pCurrentPage, _canvasView.contentOffset.y) animated:YES];
 }
@@ -161,6 +161,17 @@
 - (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView
 {
     [self p_scrollToWhereCanvasShouldBe];
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
+{
+    if (_pCurrentPage<2) {
+        
+    }
+    else if (_pCurrentPage>=_totalPageNumber+2)
+    {
+        
+    }
 }
 
 @end
