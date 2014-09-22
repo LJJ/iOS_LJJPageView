@@ -8,13 +8,6 @@
 
 #import "LJJPageView.h"
 @interface LJJPageView()<UIScrollViewDelegate>
-/*
- 用以循环
-@property (nonatomic, strong) UIView *previousContentView;
-@property (nonatomic, strong) UIView *currentContentView;
-@property (nonatomic, strong) UIView *nextContentView;
- @property (nonatomic, strong) NSArray *contentViewArray;
- */
 @property (nonatomic, strong) UIScrollView *canvasView;
 @property (nonatomic, strong) UIPageControl *pageControl;
 @property (nonatomic) CGFloat startOffset;
@@ -165,12 +158,9 @@
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
-    if (_pCurrentPage<2) {
-        
-    }
-    else if (_pCurrentPage>=_totalPageNumber+2)
-    {
-        
+    if (_pCurrentPage<2||_pCurrentPage>=_totalPageNumber+2) {
+        _pCurrentPage = _currentPageNumber+2;
+        [_canvasView setContentOffset:CGPointMake(_pageWidth*_pCurrentPage, _canvasView.contentOffset.y) animated:NO];
     }
 }
 
