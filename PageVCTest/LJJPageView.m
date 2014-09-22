@@ -55,6 +55,7 @@
 {
     _currentPageNumber = currentPageNumber;
     _pageControl.currentPage = _currentPageNumber;
+    [_canvasView setContentOffset:CGPointMake(_pageWidth*_currentPageNumber, _canvasView.contentOffset.y) animated:YES];
 }
 
 - (void)setPageWidth:(CGFloat)pageWidth
@@ -111,10 +112,6 @@
     if (offset<0) offset = 0;
     else if (offset > (_totalPageNumber-1)*_pageWidth) offset = (_totalPageNumber-1)*_pageWidth;
     self.currentPageNumber = (NSInteger)((offset+_pageWidth/2)/_pageWidth);
-    
-    NSLog(@"%d",_currentPageNumber);
-    
-    [_canvasView setContentOffset:CGPointMake(_pageWidth*_currentPageNumber, _canvasView.contentOffset.y) animated:YES];
 }
 
 #pragma mark - uiscrollview delegate

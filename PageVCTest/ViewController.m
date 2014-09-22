@@ -24,10 +24,10 @@
 {
     [super viewDidLoad];
     
-    LJJPageView *pageView = [[LJJPageView alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
+    LJJPageView *pageView = [[LJJPageView alloc] initWithFrame:CGRectMake(0,50, 320, 200)];
     pageView.pageWidth = 220;
     pageView.totalPageNumber = 5;
-    pageView.currentPageNumber = 0;
+    pageView.currentPageNumber = 2;
     pageView.pageIndicatorColor = [UIColor grayColor];
     pageView.currentPageIndicatorColor = [UIColor blackColor];
     
